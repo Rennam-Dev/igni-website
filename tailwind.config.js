@@ -18,6 +18,7 @@ export default {
           700: '#1e40af',
           800: '#1e3a8a',
           900: '#1e3a8a',
+          DEFAULT: '#2563EB',
         },
         secondary: {
           50: '#ecfdf5',
@@ -30,6 +31,7 @@ export default {
           700: '#047857',
           800: '#065f46',
           900: '#064e3b',
+          DEFAULT: '#10B981',
         },
         accent: {
           50: '#f5f3ff',
@@ -42,6 +44,7 @@ export default {
           700: '#6d28d9',
           800: '#5b21b6',
           900: '#4c1d95',
+          DEFAULT: '#8B5CF6',
         },
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
