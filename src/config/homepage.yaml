@@ -1,0 +1,82 @@
+# Conteúdo da Homepage - Igni Digital (Multi-nicho)
+
+hero:
+  title: "Automatize seu Negócio com"
+  highlight: "Inteligência Artificial 24/7"
+  subtitle: "Aumente vendas e atendimentos em até 40% com IA integrada ao WhatsApp, automações inteligentes e gestão completa de leads."
+  powered_by: "Powered by Taskni Platform"
+  cta_primary:
+    text: "Agendar Consultoria Gratuita"
+    url: "https://cal.com/ignidigital/consultoria"
+  cta_secondary:
+    text: "Ver Como Funciona"
+    url: "/como-funciona"
+
+stats:
+  title: "Resultados Comprovados"
+  subtitle: "Números reais de clientes em diversos segmentos"
+  items:
+    - amount: "+1.500"
+      title: "Atendimentos/mês"
+    - amount: "98%"
+      title: "Taxa de resposta"
+    - amount: "2min"
+      title: "Tempo de resposta"
+    - amount: "+40%"
+      title: "Aumento em conversões"
+
+features:
+  title: "Por que escolher a Igni Digital?"
+  subtitle: "Não somos só uma plataforma. Somos seu parceiro de crescimento digital."
+  items:
+    - title: "Atendimento IA 24/7"
+      description: "Responda clientes via WhatsApp em qualquer horário, qualifique leads e nunca perca uma oportunidade de venda."
+      icon: "tabler:robot"
+
+    - title: "Setup em 48 horas"
+      description: "Não perca tempo. Em 2 dias seu negócio está operando com IA treinada e totalmente integrada."
+      icon: "tabler:rocket"
+
+    - title: "Account Manager Dedicado"
+      description: "Acompanhamento estratégico, relatórios personalizados e otimizações contínuas."
+      icon: "tabler:user-check"
+
+    - title: "Tecnologia Proprietária"
+      description: "Taskni Platform: nossa solução desenvolvida para negócios brasileiros que querem escalar."
+      icon: "tabler:code"
+
+    - title: "Campanhas Automatizadas"
+      description: "Reative clientes inativos, nutra leads e crie jornadas personalizadas no automático."
+      icon: "tabler:refresh"
+
+    - title: "ROI em 30 dias"
+      description: "Veja resultados reais no primeiro mês ou devolvemos seu investimento. Garantia total."
+      icon: "tabler:chart-line"
+
+how_it_works:
+  title: "Como Funciona"
+  subtitle: "Do primeiro contato até o crescimento contínuo do seu negócio"
+  image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&auto=format&fit=crop"
+  steps:
+    - title: "Consultoria Estratégica"
+      description: "Analisamos seu negócio e identificamos as melhores oportunidades de automação em 30 minutos."
+      icon: "tabler:video"
+
+    - title: "Setup Personalizado (48h)"
+      description: "Configuramos o Taskni com seus dados, integramos sistemas e treinamos a IA especificamente para seu mercado."
+      icon: "tabler:tool"
+
+    - title: "Treinamento Completo"
+      description: "Capacitamos sua equipe para usar o sistema em 1 hora. Interface intuitiva e suporte contínuo."
+      icon: "tabler:school"
+
+    - title: "Crescimento Contínuo"
+      description: "Account Manager dedicado, relatórios semanais, otimizações mensais e novas estratégias de crescimento."
+      icon: "tabler:chart-dots"
+
+cta_final:
+  title: "Pronto para Escalar seu Negócio?"
+  subtitle: "Agende uma consultoria gratuita e descubra como a Igni Digital pode transformar seus resultados."
+  button:
+    text: "Agendar Consultoria Agora"
+    url: "https://cal.com/ignidigital/consultoria"
