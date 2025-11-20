@@ -61,9 +61,10 @@ export const footerData = {
     {
       title: 'Soluções',
       links: [
-        { text: 'Clínicas Dentárias', href: '/clinicas-dentarias' },
-        { text: 'Estéticas e Salões', href: '/esteticas-e-saloes' },
-        { text: 'Clínicas Veterinárias', href: '/clinicas-veterinarias' },
+        { text: 'Para Clínicas e Consultórios', href: '/clinicas' },
+        { text: 'Para E-commerce', href: '/ecommerce' },
+        { text: 'Para Serviços Locais', href: '/servicos-locais' },
+        { text: 'Para Educação', href: '/educacao' },
       ],
     },
   ],
