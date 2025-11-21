@@ -43,42 +43,56 @@ export const headerData = {
 export const footerData = {
   links: [
     {
+      title: 'Soluções',
+      links: [
+        { text: 'Para Saúde & Bem-estar', href: '/saude' },
+        { text: 'Para E-commerce', href: '/ecommerce' },
+        { text: 'Para Educação', href: '/educacao' },
+        { text: 'Para Imóveis', href: '/imoveis' },
+        { text: 'Para Serviços Locais', href: '/servicos-locais' },
+      ],
+    },
+    {
       title: 'Produto',
       links: [
         { text: 'Serviços', href: '/servicos' },
         { text: 'Como Funciona', href: '/como-funciona' },
         { text: 'Preços', href: '/precos' },
+        { text: 'Cases de Sucesso', href: '/cases' },
       ],
     },
     {
       title: 'Empresa',
       links: [
-        { text: 'Sobre', href: '/sobre' },
-        { text: 'Cases', href: '/cases' },
+        { text: 'Sobre Nós', href: '/sobre' },
         { text: 'Blog', href: '/blog' },
+        { text: 'Contato', href: '/contato' },
+        { text: 'FAQ', href: '/#faq' },
       ],
     },
     {
-      title: 'Soluções',
+      title: 'Recursos',
       links: [
-        { text: 'Para Clínicas e Consultórios', href: '/clinicas' },
-        { text: 'Para E-commerce', href: '/ecommerce' },
-        { text: 'Para Serviços Locais', href: '/servicos-locais' },
-        { text: 'Para Educação', href: '/educacao' },
+        { text: 'Central de Ajuda', href: '/ajuda' },
+        { text: 'API Taskni', href: 'https://taskni.app/api' },
+        { text: 'Status do Sistema', href: 'https://status.taskni.app' },
+        { text: 'Roadmap', href: '/roadmap' },
       ],
     },
   ],
   secondaryLinks: [
     { text: 'Termos de Uso', href: '/termos' },
     { text: 'Política de Privacidade', href: '/privacidade' },
+    { text: 'LGPD', href: '/lgpd' },
   ],
   socialLinks: [
     { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/5511999999999' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
+    { ariaLabel: 'GitHub', icon: 'tabler:brand-github', href: 'https://github.com/Rennam-Dev' },
   ],
   footNote: `
-    © 2025 Igni Digital. Todos os direitos reservados.
-    <a class="text-blue-600 hover:underline" href="https://taskni.app">Powered by Taskni</a>
+    © ${new Date().getFullYear()} Igni Digital. Todos os direitos reservados.
+    <a class="text-blue-600 hover:underline dark:text-blue-400" href="https://taskni.app" target="_blank" rel="noopener">Powered by Taskni</a>
   `,
 };

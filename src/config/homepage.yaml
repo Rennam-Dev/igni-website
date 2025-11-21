@@ -53,6 +53,40 @@ features:
       description: "Veja resultados reais no primeiro mês ou devolvemos seu investimento. Garantia total."
       icon: "tabler:chart-line"
 
+segmentos:
+  title: "Soluções para Diversos Segmentos"
+  subtitle: "Não importa seu nicho, temos a solução ideal para automatizar e escalar seu negócio"
+  items:
+    - name: "Saúde & Bem-estar"
+      description: "Clínicas, consultórios, estéticas e academias"
+      icon: "tabler:heartbeat"
+      color: "bg-red-100 text-red-600"
+
+    - name: "E-commerce"
+      description: "Lojas online, marketplaces e dropshipping"
+      icon: "tabler:shopping-cart"
+      color: "bg-blue-100 text-blue-600"
+
+    - name: "Educação"
+      description: "Cursos, escolas e treinamentos online"
+      icon: "tabler:book"
+      color: "bg-green-100 text-green-600"
+
+    - name: "Imóveis"
+      description: "Corretoras, construtoras e administradoras"
+      icon: "tabler:home"
+      color: "bg-purple-100 text-purple-600"
+
+    - name: "Alimentação"
+      description: "Restaurantes, delivery e food trucks"
+      icon: "tabler:chef-hat"
+      color: "bg-orange-100 text-orange-600"
+
+    - name: "Serviços Locais"
+      description: "Assistências, reparos e manutenções"
+      icon: "tabler:tools"
+      color: "bg-cyan-100 text-cyan-600"
+
 how_it_works:
   title: "Como Funciona"
   subtitle: "Do primeiro contato até o crescimento contínuo do seu negócio"
@@ -73,6 +107,34 @@ how_it_works:
     - title: "Crescimento Contínuo"
       description: "Account Manager dedicado, relatórios semanais, otimizações mensais e novas estratégias de crescimento."
       icon: "tabler:chart-dots"
+
+faq:
+  title: "Perguntas Frequentes"
+  subtitle: "Tudo que você precisa saber antes de começar"
+  items:
+    - question: "Quanto tempo leva para implementar?"
+      answer: "Apenas 48 horas! Em 2 dias úteis sua IA está treinada, integrada e operando 24/7."
+
+    - question: "Funciona para o meu segmento?"
+      answer: "Sim! Atendemos desde clínicas e e-commerce até educação, imóveis e serviços locais. A IA é treinada especificamente para seu mercado."
+
+    - question: "Preciso ter conhecimento técnico?"
+      answer: "Não! Fazemos todo o setup técnico e treinamos sua equipe em 1 hora. A interface é simples e intuitiva."
+
+    - question: "A IA substitui minha equipe?"
+      answer: "Não, ela POTENCIALIZA! Sua equipe foca em atendimentos complexos enquanto a IA cuida de FAQ, qualificação e follow-up automático."
+
+    - question: "Qual o ROI médio?"
+      answer: "Clientes relatam aumento de 30-40% em conversões nos primeiros 30 dias. Se não ver resultados, devolvemos 100% do investimento."
+
+    - question: "Posso cancelar quando quiser?"
+      answer: "Sim! Planos mensais podem ser cancelados a qualquer momento sem multa. Planos anuais têm desconto mas exigem permanência de 12 meses."
+
+    - question: "Integra com meus sistemas atuais?"
+      answer: "Sim! Integramos com WhatsApp Business API, Google Calendar, CRMs populares, e-commerce, Cal.com e muito mais."
+
+    - question: "Como funciona o suporte?"
+      answer: "Plano Starter: email (48h). Plano Growth: WhatsApp (24h). Plano Premium: WhatsApp prioritário + Account Manager dedicado."
 
 cta_final:
   title: "Pronto para Escalar seu Negócio?"

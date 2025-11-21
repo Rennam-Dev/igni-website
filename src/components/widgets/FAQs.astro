@@ -1,33 +1,69 @@
 ---
-import Headline from '~/components/ui/Headline.astro';
-import ItemGrid from '~/components/ui/ItemGrid.astro';
-import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
-import type { Faqs as Props } from '~/types';
+interface Props {
+  title?: string;
+  subtitle?: string;
+  items?: Array<{
+    question: string;
+    answer: string;
+  }>;
+  classes?: string;
+}
 
 const {
-  title = '',
-  subtitle = '',
-  tagline = '',
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
   items = [],
-  columns = 2,
-
-  id,
-  isDark = false,
-  classes = {},
-  bg = await Astro.slots.render('bg'),
+  classes = '',
 } = Astro.props;
 ---
 
-<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
-  <Headline title={title} subtitle={subtitle} tagline={tagline} />
-  <ItemGrid
-    items={items}
-    columns={columns}
-    defaultIcon="tabler:chevron-right"
-    classes={{
-      container: `${columns === 1 ? 'max-w-4xl' : ''} gap-y-8 md:gap-y-12`,
-      panel: 'max-w-none',
-      icon: 'flex-shrink-0 mt-1 w-6 h-6 text-primary',
-    }}
-  />
-</WidgetWrapper>
+<section class={`scroll-mt-16 ${classes}`}>
+  <div class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20">
+    {
+      (title || subtitle) && (
+        <div class="mb-10 md:mx-auto text-center md:mb-12 max-w-3xl">
+          {title && (
+            <h2
+              class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading"
+              set:html={title}
+            />
+          )}
+          {subtitle && (
+            <p class="max-w-3xl mx-auto text-xl text-muted" set:html={subtitle} />
+          )}
+        </div>
+      )
+    }
+    <div class="max-w-4xl mx-auto">
+      <div class="space-y-4">
+        {
+          items.map(({ question, answer }) => (
+            <details class="group bg-white dark:bg-slate-900 rounded-lg shadow-lg overflow-hidden">
+              <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+                <span class="text-lg font-semibold">{question}</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="px-6 pb-6 text-muted">
+                <p>{answer}</p>
+              </div>
+            </details>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
